@@ -30,6 +30,6 @@ if __name__ == '__main__':
 
     #lets sort the results in ascending order
 
-    sorted(results, key = lambda x : x['count'])
+    results = sorted(results, key = lambda x : x['count'])
 
     print(results)   # This will print the list of dictionaries in the sorted order based on the score
